@@ -1,6 +1,6 @@
 
 <body>
-  <h1>✅ Day 3 Summary – Linear Regression & Datasets in scikit-learn</h1>
+  <h2>✅ Day 3 Summary – Linear Regression & Datasets in scikit-learn</h2>
 
   <h2>📌 Topics Covered:</h2>
   <ul>

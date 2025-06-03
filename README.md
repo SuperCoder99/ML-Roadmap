@@ -18,5 +18,5 @@ This repo contains my daily Machine Learning learning journey — from basic con
 
 1. Clone the repo using GitHub Desktop or Git
 2. Explore folders day-wise (day_01, day_02, ...)
-3. Read the notes and run the notebooks
+3. Read the notes and run the files
 

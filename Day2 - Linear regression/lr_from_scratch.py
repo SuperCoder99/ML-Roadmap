@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+from graph_functions import *
 
 def predict_y(x, m, c):
   return [m*value + c for value in x]
@@ -22,12 +22,4 @@ mse = MSE(pred_y, y)
 print("ANALYTICAL METHOD:")
 print(f"Line : Y = {m:.3f}X + ({c:.3f}) \nPredicted Y : {pred_y}\nMSE : {mse:.3f}")
 
-plt.scatter(x, y, color='blue', label='Actual Data')  
-plt.plot(x, pred_y, color='red', label='Predicted Line') 
-plt.xlabel("X")
-plt.ylabel("Y")
-plt.title("Linear Regression: Actual vs Predicted")
-plt.legend()
-plt.grid(True)
-plt.show()
-
+plot_linear_regression(x, y, pred_y, label_data="Actual Data", label_plot="Predicted Line", title="Linear Regression: Actual vs Predicted", x_label="X", y_label="Y", color_data="blue", color_plot="red")
